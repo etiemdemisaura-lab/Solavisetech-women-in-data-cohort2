@@ -8,7 +8,7 @@ measurement = 'meters tall,'
 Interest = 'my favorite tech field is data analysis. It is'
 it_is = 'true that'
 student_status = 'I am a student.'
-print(str(Name) + " " + str(Age) + " " + str(Introduction) + " " + str(height) + " " + str(measurement) + " " + str(Interest) + " " + str(it_is) + " " + str(student_status))
+print(str(Name) + ' ' + str(Age) + ' ' + str(Introduction) + ' ' + str(height) + ' ' + str(measurement) + ' ' + str(Interest) + ' ' + str(it_is) + ' ' + str(student_status))
 
 # Type checker
 
@@ -31,16 +31,16 @@ print str(is_student))
 
 # User information
 
-Email = input("Please enter your email address: ")
-print("Your email address is: " + Email)
-phone_number = input("Please enter your phone number: ")
-print("Your phone number is: " + phone_number)
-address = input("Please enter your address: ")
-print("Your address is: " + address)
-print( "Your email address is: " + Email + "\nYour phone number is: " + phone_number + "\nYour address is: " + address)
+Email = input('Please enter your email address: ')
+print('Your email address is: ' + Email)
+phone_number = input('Please enter your phone number:')
+print('Your phone number is: ' + phone_number)
+address = input('Please enter your address: ')
+print('Your address is: ' + address)
+print( 'Your email address is: ' + Email + '\nYour phone number is: ' + phone_number + '\nYour address is: ' + address)
 
 # Temperature converter
 
-celcius = float(input("Enter the temperature in Celcius: "))
+celcius = float(input('Enter the temperature in Celcius: '))
 fahrenheit = (celcius * 9/5) + 32
-print(f"{celcius} degrees Celcius is equal to {fahrenheit} degrees Fahrenheit.")
+print(f'{celcius} degrees Celcius is equal to {fahrenheit} degrees Fahrenheit.')
